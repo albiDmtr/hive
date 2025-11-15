@@ -3,6 +3,7 @@ import * as THREE from "three";
 import { NodeIO } from "@gltf-transform/core";
 import { writeFileSync, unlinkSync } from "fs";
 import { join } from "path";
+import { randomBytes } from "crypto";
 
 const app = express();
 app.use(express.json());
@@ -20,7 +21,8 @@ async function glbToPointCloud(
   const buffer = Buffer.from(arrayBuffer);
 
   // Save temporarily (gltf-transform needs a file path)
-  const tempPath = join(process.cwd(), "temp.glb");
+  const uniqueId = randomBytes(16).toString("hex");
+  const tempPath = join("/tmp", `temp-${uniqueId}.glb`);
   writeFileSync(tempPath, buffer);
 
   try {
