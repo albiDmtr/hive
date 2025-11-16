@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/7d0051da-1fb9-4cdd-a9f2-838248a97c47>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Provides an animated graphic hint and a helper script that allows to configure hint behavior. Most common hint for interactions. Using it when need to emphasize an interactive element.  For a clickable area prefer to use the design with feedback instead.\n\nUsage:\nDrag and drop the asset \"Hint - Listen Sound__PUT_IN_ORTHO_CAM\" into your scene, under the Orthographic Camera. The hint will start playing automatically when the Lens is opened."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: c5d3b77a-438e-4aa3-8bc2-7d49bfb96fd7
+  ComponentUid: a354d171-7098-4655-8907-ba12016fb7c1
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 330
+  clientVersion: 13.6000004

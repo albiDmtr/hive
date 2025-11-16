@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    0350975d-5d7d-4e6f-9b9b-1343335f365f: f15cec86-8bb4-35d2-c042-2df7ba0aaaea/8e848aec250fa40569687e1c1b5da911/Data/Hint_Audio_Search.lensanim
+    673cb32a-c81c-45cc-803e-196060be3463: f15cec86-8bb4-35d2-c042-2df7ba0aaaea/8e848aec250fa40569687e1c1b5da911/Data/LPD-290_UI_Audio_Search_sequence_v01.png
+  Assets:
+    - !<AnimatedTexture/0350975d-5d7d-4e6f-9b9b-1343335f365f>
+      PackagePath: ""
+      keyFrames:
+        LPD_282:
+          - time: 0.000000
+            value: 0
+          - time: 2.400000
+            value: 36
+      ReverseSupported: true
+      FrameSize: {x: 274, y: 302}
+      AnimationSequences:
+        LPD_282: 36
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: LPD_282
+    - !<FileTexture/673cb32a-c81c-45cc-803e-196060be3463>
+      PackagePath: LPD-290_UI_Audio_Search_sequence_v01.png
+      FileInfo: !<FileTextureInfo>
+        Width: 998
+        Height: 2000
+  SourceHash: 8e848aec250fa40569687e1c1b5da911
+  FileHash: 4aeb135e851a7b4d6e629b0f0cbe6cc5
+  NativePackageItems:
+    []

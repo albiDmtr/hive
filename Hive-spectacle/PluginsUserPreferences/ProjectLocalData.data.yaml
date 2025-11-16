@@ -1,0 +1,15 @@
+data:
+  externalSources:
+    - 03f95a9e-fda7-4255-8ae9-ff472c6644d8: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/RemoteServiceGateway@0.1.9/RemoteServiceGateway.lspkg
+    - 1a3af64c-3e20-4525-9b5f-2f719a89233d: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Plane.mesh
+    - 221076d6-3cb8-414a-a04b-03ab3e08ea84: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/LSTween@1.1.0/LSTween.lspkg
+    - 47847a2a-cb14-4cfc-a1ae-06525b873a0c: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/UI Panel@3.0.0/UI Panel.lsc
+    - 4e2bccb1-e4ec-4821-a72b-73421ec8a725: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
+    - 75713ff8-fa08-4b33-89b7-07a3228207d0: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit@0.15.0/SpectaclesInteractionKit.lspkg
+    - 915b7da7-e41f-4e69-8aa1-24d802fac817: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
+    - 91b4d525-30c7-4892-a4c6-8033c6ea6b71: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/BodyMeshMaterial/Resources/body_mesh.ss_graph
+    - a4895468-2113-4dfd-861c-a43f3ca6d79a: /Applications/Lens Studio.app/Contents/Plugins/Es_ShaderGraph_Model.bundle/InstantiationResources/simple_pbr.ss_graph
+    - af7542f4-3145-4773-9dfa-59f7fd1ccb29: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/Visual Demonstration@5.10.0/Visual Demonstration.lsc
+    - b97ce1fd-d1e1-42f0-83b4-1fa6c1f72cc3: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/PBRMaterial/Resources/pbr.ss_graph
+    - c41da6a7-7e59-43a7-b7bb-283a6a7fe66b: /Users/albi/Library/Preferences/Snap/Lens Studio/LibraryComponents/UI Button@11.0.0/UI Button.lsc
+    - e204e1fe-de3c-4edf-8aba-fa996682c77d: /Applications/Lens Studio.app/Contents/Plugins/Es_ShaderGraph_Model.bundle/InstantiationResources/Base.png

@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/dfb3831e-b185-49bd-8bd1-6009f561dab3>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+  Description: "\nUI Panel Widget is used as a container for other UI Widgets such as UIButton, UI Toggle and UI Color Picker. It allows to modify their interactivity all together \nApi : \n\n// Manually enable interactable\n// script.enableInteractable()\n//\n// Manually disable interactable\n// script.disableInteractable()\n//\n// True if interactable\n// script.isInteractable()\n//\n// Add callback function to event\n// script.onEnableInteractable.add(callback)\n// script.onDisableInteractable.add(callback)\n//\n// Remove callback function from event\n// script.onEnableInteractable.remove(callback)\n// script.onDisableInteractable.remove(callback)\n//\n// Enable touch events\n// script.enableTouchEvents()\n//\n// Disable touch events\n// script.disableTouchEvents()"
+  SvgIcon: "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"3\" y=\"6\" width=\"26\" height=\"20\" rx=\"6\" stroke=\"#D0DAE6\" stroke-width=\"2\"/>\n<circle cx=\"23\" cy=\"12\" r=\"3\" stroke=\"#D0DAE6\" stroke-width=\"2\"/>\n</svg>\n"
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 93e9e8d2-44d7-4a27-b4ab-c3f30ac53e6e
+  ComponentUid: 0005eade-b487-8ea3-0000-0000000ecf7c
+  Instantiable: !<reference> 15bbdf97-40f9-4197-a448-c40643796e63
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: UI Panel
+    AssetId: 5pQpqHiRPFvSm2ykXKALBt
+    Hash: 0b11384041b950ed7126ff358f2dcbe1
+    Version:
+      major: 3
+      minor: 0
+      patch: 0
+      build: 0
+  PackagePolicy: CanBeUnpacked
+  coreVersion: 330
+  clientVersion: 13.6000004

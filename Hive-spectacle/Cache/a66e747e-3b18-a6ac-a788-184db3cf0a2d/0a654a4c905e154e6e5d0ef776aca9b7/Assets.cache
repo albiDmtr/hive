@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    44896ac3-ddbf-4d6d-8975-f71d9d8f0b70: a66e747e-3b18-a6ac-a788-184db3cf0a2d/0a654a4c905e154e6e5d0ef776aca9b7/Data/Slider.mesh
+  Assets:
+    - !<FileMesh/44896ac3-ddbf-4d6d-8975-f71d9d8f0b70>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 36
+        Vertices: 38
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 8.925394, y: 1.891097, z: 0.000001}
+  SourceHash: 0a654a4c905e154e6e5d0ef776aca9b7
+  FileHash: 5b0765d3519df0f00629abe94957ad4e
+  NativePackageItems:
+    []

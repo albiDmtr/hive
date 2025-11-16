@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    267b1fb8-6819-44c9-a479-adff659f37ca: 6749b5b0-b1d3-67c5-5d83-60fed039988a/083fc00cec49a342e53ea80e7583f88b/Data/Glow.png
+  Assets:
+    - !<FileTexture/267b1fb8-6819-44c9-a479-adff659f37ca>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 240
+        Height: 240
+  SourceHash: 083fc00cec49a342e53ea80e7583f88b
+  FileHash: 0517a953d76fd015912d453c152c9be7
+  NativePackageItems:
+    []

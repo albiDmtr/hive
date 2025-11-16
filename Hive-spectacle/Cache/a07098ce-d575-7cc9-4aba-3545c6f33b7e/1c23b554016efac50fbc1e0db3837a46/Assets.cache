@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0b89aef6-64ae-42a0-8100-a3d130754a81: a07098ce-d575-7cc9-4aba-3545c6f33b7e/1c23b554016efac50fbc1e0db3837a46/Data/RayMesh.mesh
+  Assets:
+    - !<FileMesh/0b89aef6-64ae-42a0-8100-a3d130754a81>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 65
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.030000, y: 1.000000, z: 0.030000}
+  SourceHash: 1c23b554016efac50fbc1e0db3837a46
+  FileHash: 73e5a9b28321065af942fca04c8cafea
+  NativePackageItems:
+    []

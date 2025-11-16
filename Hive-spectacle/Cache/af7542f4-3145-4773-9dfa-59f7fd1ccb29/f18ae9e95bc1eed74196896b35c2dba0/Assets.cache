@@ -1,0 +1,349 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: f18ae9e95bc1eed74196896b35c2dba0
+  FileHash: 82df94433104438b324f90af5208078b
+  NativePackageItems:
+    - !<own> 00ca323e-289f-2961-2d79-0cda7ba26af8
+    - !<own> fb9230c9-51be-c0e4-140c-40e1c8a4122d
+    - !<own> b4034754-3c98-ce0b-bd95-b03ce968b26f
+    - !<own> 4c59a0f6-5963-9c59-4e19-6b3da750a51a
+    - !<own> c1f20dd8-d0e3-88a2-f2f4-45552cea935b
+    - !<own> 81dc6cce-b5dc-978a-7882-136a69ca1027
+- !<AssetImportMetadata/00ca323e-289f-2961-2d79-0cda7ba26af8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f705ac27-bd04-41fe-8cf3-6d3f651318bf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f705ac27-bd04-41fe-8cf3-6d3f651318bf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> aae598db-6f0c-4434-a79c-8be5a43b04fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4c59a0f6-5963-9c59-4e19-6b3da750a51a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> eec496b5-7324-4764-a990-6203f7a0f178
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> eec496b5-7324-4764-a990-6203f7a0f178
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ba60f60e-5daf-4f06-a60c-b921dbbb1d3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/81dc6cce-b5dc-978a-7882-136a69ca1027>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 98364057-d6d0-41f5-99c0-f462a4372cd2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 98364057-d6d0-41f5-99c0-f462a4372cd2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e2c93d99-53e6-4dea-b382-65c083be7dc8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/aae598db-6f0c-4434-a79c-8be5a43b04fb>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 3H8C5.23858 3 3 5.23858 3 8V24C3 26.7614 5.23858 29 8 29H10" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M22 3H24C26.7614 3 29 5.23858 29 8V24C29 26.7614 26.7614 29 24 29H22" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M9.5 8L18.5 8C18.7761 8 19 8.22386 19 8.5C19 8.77614 18.7761 9 18.5 9L9.5 9C9.22386 9 9 8.77614 9 8.5C9 8.22386 9.22386 8 9.5 8Z" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M9.5 13L22.5 13C22.7761 13 23 13.2239 23 13.5C23 13.7761 22.7761 14 22.5 14L9.5 14C9.22386 14 9 13.7761 9 13.5C9 13.2239 9.22386 13 9.5 13Z" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M9.5 18L13.5 18C13.7761 18 14 18.2239 14 18.5C14 18.7761 13.7761 19 13.5 19L9.5 19C9.22386 19 9 18.7761 9 18.5C9 18.2239 9.22386 18 9.5 18Z" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M18.5 18L19.5 18C19.7761 18 20 18.2239 20 18.5C20 18.7761 19.7761 19 19.5 19L18.5 19C18.2239 19 18 18.7761 18 18.5C18 18.2239 18.2239 18 18.5 18Z" stroke="#D0DAE6" stroke-width="2"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |-
+    Visual Demonstration  Description: The Visual Demonstration Custom Component provides controls for setting up different kinds of hints in the lens. 
+    
+    Usage:
+    
+    Add CC to an empty SceneObject and fill in the required inputs. The component has two start options: automatically and using the API.  You need to add BaseMeshVisual to the Visual Demonstration field to specify the object for which the animation will occur. You can customize the Visual Demonstration animation by adjusting parameters such as Delay, Fade In, Shown Time, Fade Out, Animation Loops, and enable additional settings through Advanced options.  API:
+    show(): void - manually starts the appearance animation.
+    hide(): void - manually starts the disappearance animation.
+    forceHide(): void - manually turns off the visual demonstration without animation.
+    visible: boolean - returns whether the visual demonstration is active at the moment.  Events: onVisualDemonstrationStart - triggers when the appearance animation started.
+    onVisualDemonstrationFinish - triggers when the disappearance animation ended. 
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 73440189-3fc4-482e-89ee-15be8390f496
+  ExportUid: d8770fe0-6c90-48aa-a293-b8f3c16c7de6
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    appearDelay: false
+    appearDuration: false
+    autostart: false
+    callbackType: false
+    customFunctionScript: false
+    disableHiding: false
+    disappearDuration: false
+    eventCallbacks: false
+    hideOnCameraSwitch: false
+    hideOnCapture: false
+    onVisualDemonstrationFinishBehaviors: false
+    onVisualDemonstrationFinishCustomTriggers: false
+    onVisualDemonstrationFinishFunctions: false
+    onVisualDemonstrationStartBehaviors: false
+    onVisualDemonstrationStartCustomTriggers: false
+    onVisualDemonstrationStartFunctions: false
+    repeatCount: false
+    screenDuration: false
+    showOnce: false
+    showType: false
+    visualDemonstration: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - autostart: true
+      visualDemonstration: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      showType: 2
+      appearDelay: !<float> 0.000000
+      appearDuration: 0.800000
+      screenDuration: !<float> 2.000000
+      disappearDuration: 0.800000
+      repeatCount: 3
+      advanced: false
+      disableHiding: false
+      showOnce: false
+      hideOnCapture: true
+      hideOnCameraSwitch: true
+      eventCallbacks: false
+      callbackType: 0
+      onVisualDemonstrationStartBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationFinishBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationStartCustomTriggers: !<string[]>
+        []
+      onVisualDemonstrationFinishCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onVisualDemonstrationStartFunctions: !<string[]>
+        []
+      onVisualDemonstrationFinishFunctions: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool autostart = true
+    - // @input Component.BaseMeshVisual visualDemonstration
+    - '// @input int showType = "0" {"label":"Show Type", "widget":"combobox", "values":[{"label":"On Front Camera", "value":0}, {"label":"On Back Camera", "value":1}, {"label":"On Both", "value":2}]}'
+    - '// @ui {"widget":"group_start", "label":"Duration"}'
+    - '// @input float appearDelay = "0" {"label":"Delay"}'
+    - '// @input float appearDuration = "0.8" {"label":"Fade In"}'
+    - '// @input float screenDuration = "2.0" {"label":"Shown Time"}'
+    - '// @input float disappearDuration = "0.8" {"label":"Fade Out"}'
+    - '// @input int repeatCount = "3" {"label":"Animation Loops"}'
+    - '// @ui {"widget":"group_end"}'
+    - // @input bool advanced
+    - '// @ui {"widget":"group_start", "label":"Settings", "showIf":"advanced"}'
+    - // @input bool disableHiding
+    - // @input bool showOnce
+    - // @input bool hideOnCapture = true
+    - // @input bool hideOnCameraSwitch = true
+    - '// @ui {"widget":"separator"}'
+    - // @input bool eventCallbacks
+    - '// @ui {"widget":"group_start", "label":"Event Callbacks", "showIf":"eventCallbacks"}'
+    - '// @input int callbackType = "0" {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Behavior Script", "value":1}, {"label":"Behavior Custom", "value":2}, {"label":"Custom Function", "value":3}]}'
+    - '// @input Component.ScriptComponent[] onVisualDemonstrationStartBehaviors {"showIf":"callbackType", "showIfValue":1}'
+    - '// @input Component.ScriptComponent[] onVisualDemonstrationFinishBehaviors {"showIf":"callbackType", "showIfValue":1}'
+    - '// @input string[] onVisualDemonstrationStartCustomTriggers {"showIf":"callbackType", "showIfValue":2}'
+    - '// @input string[] onVisualDemonstrationFinishCustomTriggers {"showIf":"callbackType", "showIfValue":2}'
+    - '// @input Component.ScriptComponent customFunctionScript {"showIf":"callbackType", "showIfValue":3}'
+    - '// @input string[] onVisualDemonstrationStartFunctions {"showIf":"callbackType", "showIfValue":3}'
+    - '// @input string[] onVisualDemonstrationFinishFunctions {"showIf":"callbackType", "showIfValue":3}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_end"}'
+- !<AssetImportMetadata/b4034754-3c98-ce0b-bd95-b03ce968b26f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 480f736b-05d6-499a-bd36-6b8fe8525c6f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 480f736b-05d6-499a-bd36-6b8fe8525c6f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f4930c2a-195d-4c32-a88a-97cf7d8c7196
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ba60f60e-5daf-4f06-a60c-b921dbbb1d3c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 72b4b4a1-3619-4969-ba79-bb6feb48cf01
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<AssetImportMetadata/c1f20dd8-d0e3-88a2-f2f4-45552cea935b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 84b3dbc3-f044-4be7-931e-752cc044928d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 84b3dbc3-f044-4be7-931e-752cc044928d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cff1a9c6-7fe8-4ba8-924b-38ffed2b87a7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/cff1a9c6-7fe8-4ba8-924b-38ffed2b87a7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3ead3002-6acd-4e0e-b255-5661224c00db
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<TypeScriptAssetData/e2c93d99-53e6-4dea-b382-65c083be7dc8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a92f9381-4723-4936-8342-aa3115a11d94
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<TypeScriptAssetData/f4930c2a-195d-4c32-a88a-97cf7d8c7196>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4c9782cd-223e-455a-87a0-0543e4a9fbe4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<AssetImportMetadata/fb9230c9-51be-c0e4-140c-40e1c8a4122d>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 6aeb3201-19d0-41ec-b7bb-629850d628a0
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 6aeb3201-19d0-41ec-b7bb-629850d628a0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

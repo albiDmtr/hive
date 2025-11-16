@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    67200b10-685d-4521-a3a8-32de5fdeaffd: 42856644-405d-5b50-1cc0-0ff3f15d0730/93493059afe7a22daed1429f5d345bab/Data/Panel_10X.png
+  Assets:
+    - !<FileTexture/67200b10-685d-4521-a3a8-32de5fdeaffd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 220
+        Height: 220
+  SourceHash: 93493059afe7a22daed1429f5d345bab
+  FileHash: d012ef56e9aeb89fc586ed7a90d5cd69
+  NativePackageItems:
+    []

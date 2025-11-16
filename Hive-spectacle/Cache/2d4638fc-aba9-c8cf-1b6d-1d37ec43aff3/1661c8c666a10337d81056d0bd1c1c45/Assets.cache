@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    795c54d9-dcb1-4492-b69d-7f9f30363c5c: 2d4638fc-aba9-c8cf-1b6d-1d37ec43aff3/1661c8c666a10337d81056d0bd1c1c45/Data/ArrowUp.png
+  Assets:
+    - !<FileTexture/795c54d9-dcb1-4492-b69d-7f9f30363c5c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 64
+  SourceHash: 1661c8c666a10337d81056d0bd1c1c45
+  FileHash: 6f3493bd51badbfd28e03ab5b52d8742
+  NativePackageItems:
+    []

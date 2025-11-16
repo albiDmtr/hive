@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a726d977-6a07-4a02-a7a3-d9c026cf82bc: 835128e8-2c4b-36c5-60d1-b646dc86f341/1cf3c04c6b44b064bea72ff087df4a4e/Data/GPUParticlesMesh.mesh
+  Assets:
+    - !<FileMesh/a726d977-6a07-4a02-a7a3-d9c026cf82bc>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 1.000000, z: 0.000000}
+  SourceHash: 1cf3c04c6b44b064bea72ff087df4a4e
+  FileHash: c7bc0cea1b6270985ca82f7280136d14
+  NativePackageItems:
+    []

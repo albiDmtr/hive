@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    73d9dedf-d8a2-478c-8584-a71ed7121cbf: 68046a5f-4731-0e13-eac0-bb2764c5b9f1/83a2e2b239b80c711e703fee01e0ac58/Data/scales.png
+  Assets:
+    - !<FileTexture/73d9dedf-d8a2-478c-8584-a71ed7121cbf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 83a2e2b239b80c711e703fee01e0ac58
+  FileHash: c34d6646d451faab33e8fec904b5876f
+  NativePackageItems:
+    []

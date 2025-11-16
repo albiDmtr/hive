@@ -1,0 +1,251 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "baseColor",
+                	"label":       "Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "0.0"
+                },
+                
+                { 
+                	"bindingName": "normalTex", 
+                	"label":       "Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "uvScale",
+                	"label":       "UV Scale",
+                	"widget":      "slider",
+                	"min":         1,
+                	"max":         10,
+                	"step":        "0.1",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "roughness",
+                	"label":       "Roughness",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Opacity Texture",
+                	"bindingName": "Tweak_N51",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "opacityTexture", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "2",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N51",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label": "Vertex Distortion",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "animated",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Animated",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "animatedspeed",
+                    	"label":       "Animated Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         2,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "offset",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "strength",
+                    	"label":       "Strength",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         100,
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseScale",
+                    	"label":       "Noise Scale",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         2,
+                    	"step":        "0.01",
+                    	"sortIndex":   "14",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Refraction",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "background", 
+                    	"label":       "Background", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "7",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "colorTint",
+                    	"label":       "Color Tint",
+                    	"widget":      "color",
+                    	"sortIndex":   "8",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "thickness",
+                    	"label":       "Thickness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "9",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "intensity",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "10",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "chromaticAberration",
+                    	"label":       "Chromatic Aberration",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "11",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Fresnel",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "exponent",
+                        	"label":       "Exponent",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         10,
+                        	"step":        "0.01",
+                        	"sortIndex":   "12",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "darken",
+                        	"label":       "Darken",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "13",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

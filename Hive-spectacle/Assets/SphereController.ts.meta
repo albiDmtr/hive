@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/4e2bccb1-e4ec-4821-a72b-73421ec8a725>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6195d586-2f33-4cec-97db-f36c02824afe
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6195d586-2f33-4cec-97db-f36c02824afe
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 28c694b4-57da-49b7-a971-1ea43eca9cfc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/28c694b4-57da-49b7-a971-1ea43eca9cfc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: cb862646-309d-4492-8b09-0fea3d10be41
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    particleHive: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - particleHive: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType particleHive

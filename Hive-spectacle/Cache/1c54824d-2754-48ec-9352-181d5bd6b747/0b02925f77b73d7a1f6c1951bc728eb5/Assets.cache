@@ -1,0 +1,313 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 0b02925f77b73d7a1f6c1951bc728eb5
+  FileHash: c778128e66e98f30268aa3ce4781cc17
+  NativePackageItems:
+    - !<own> f15cec86-8bb4-35d2-c042-2df7ba0aaaea
+    - !<own> 209553a4-393c-d547-89c2-5696a192d482
+    - !<own> c6c07c4d-b21e-4295-8fa7-277c0270e529
+    - !<own> fa5b3e12-5604-b0b0-8c73-5b56f81b0f94
+    - !<own> 25468f7e-424a-3352-e843-1170c2c1a8c1
+    - !<own> 4b8d1553-537d-e828-6676-fe728a0e6826
+- !<ScriptComponent/00ed6a8e-51a4-408d-5b96-7794ed495850>
+  PrefabRemaps:
+    []
+  Name: VisualDemonstration
+  Enabled: true
+  ScriptAsset: !<reference> f705ac27-bd04-41fe-8cf3-6d3f651318bf
+  ScriptInputsDefault:
+    autostart: true
+    showType: true
+    appearDelay: true
+    repeatCount: true
+    advanced: true
+    disableHiding: true
+    hideOnCapture: true
+    hideOnCameraSwitch: true
+    eventCallbacks: true
+    callbackType: true
+    onVisualDemonstrationStartBehaviors: true
+    onVisualDemonstrationFinishBehaviors: true
+    onVisualDemonstrationStartCustomTriggers: true
+    onVisualDemonstrationFinishCustomTriggers: true
+    customFunctionScript: true
+    onVisualDemonstrationStartFunctions: true
+    onVisualDemonstrationFinishFunctions: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autostart: true
+      visualDemonstration: !<reference.BaseMeshVisual> 41bc6576-41a8-433b-4385-b59c15553bfe
+      showType: 2
+      appearDelay: !<float> 0.000000
+      appearDuration: !<float> 0.000000
+      screenDuration: !<float> 4.000000
+      disappearDuration: 0.300000
+      repeatCount: 3
+      advanced: false
+      disableHiding: false
+      showOnce: true
+      hideOnCapture: true
+      hideOnCameraSwitch: true
+      eventCallbacks: false
+      callbackType: 0
+      onVisualDemonstrationStartBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationFinishBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationStartCustomTriggers: !<string[]>
+        []
+      onVisualDemonstrationFinishCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onVisualDemonstrationStartFunctions: !<string[]>
+        []
+      onVisualDemonstrationFinishFunctions: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<AnimatedTextureData/1399c5f0-6783-47f3-95f9-d15255d0613c>
+  AutoPlay: false
+  Reversed: false
+  PingPong: false
+  CurrentSequence: LPD_282
+  KeyFramesData:
+    LPD_282:
+      - time: 0.000000
+        value: 0
+      - time: 2.400000
+        value: 36
+- !<AssetImportMetadata/209553a4-393c-d547-89c2-5696a192d482>
+  ImportedAssetIds:
+    Material: !<reference> 883f718a-ab57-4e29-9169-411d3ce7d12f
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 883f718a-ab57-4e29-9169-411d3ce7d12f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/25468f7e-424a-3352-e843-1170c2c1a8c1>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 85bbe75d-afd7-48db-9c6c-f56ee7aaeb86
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 85bbe75d-afd7-48db-9c6c-f56ee7aaeb86
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/359ca833-139b-425c-4237-952e74531176>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: -0.145821, y: -0.588013, z: -80.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.700398
+    bottom: -0.237499
+    right: 0.646218
+    top: 0.119896
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScreenRegionComponent/383d758f-5028-4092-5d39-954d8508b1f3>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<SceneObject/38b81a66-b29d-4df4-7e84-4ef4e582cc85>
+  PrefabRemaps:
+    []
+  Name: Audio Search
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.145821, y: -0.588013, z: -80.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 359ca833-139b-425c-4237-952e74531176
+    - !<own> 00ed6a8e-51a4-408d-5b96-7794ed495850
+    - !<own> 41bc6576-41a8-433b-4385-b59c15553bfe
+- !<Image/41bc6576-41a8-433b-4385-b59c15553bfe>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 30
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 883f718a-ab57-4e29-9169-411d3ce7d12f
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4b8d1553-537d-e828-6676-fe728a0e6826>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 7d0051da-1fb9-4cdd-a9f2-838248a97c47
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 7d0051da-1fb9-4cdd-a9f2-838248a97c47
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/5a1a2cc2-e4ae-40cf-a47d-bda18ef42e41>
+  Prototype: !<ObjectOwner/29c314ad-3f65-4c44-a43f-713e4eba58fa>
+    PackagePath: ""
+    objects:
+      - !<own> cc5be9ac-b0ea-4913-7aa2-c68f13cf5699
+- !<ScreenTransform/93f4b3d9-a1ff-444c-406f-f66ca62cf983>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<AssetImportMetadata/c6c07c4d-b21e-4295-8fa7-277c0270e529>
+  ImportedAssetIds:
+    JsonAsset: !<reference> c20924a0-4817-41ed-be55-a3742d10e19d
+  ImporterName: JsonAssetImporter
+  PrimaryAsset: !<reference> c20924a0-4817-41ed-be55-a3742d10e19d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/cc5be9ac-b0ea-4913-7aa2-c68f13cf5699>
+  PrefabRemaps:
+    []
+  Name: Hint - Listen Sound
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 38b81a66-b29d-4df4-7e84-4ef4e582cc85
+  Components:
+    - !<own> 383d758f-5028-4092-5d39-954d8508b1f3
+    - !<own> 93f4b3d9-a1ff-444c-406f-f66ca62cf983
+- !<AssetImportMetadata/f15cec86-8bb4-35d2-c042-2df7ba0aaaea>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> 0350975d-5d7d-4e6f-9b9b-1343335f365f
+    LPD-290_UI_Audio_Search_sequence_v01.png: !<reference> 673cb32a-c81c-45cc-803e-196060be3463
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> 0350975d-5d7d-4e6f-9b9b-1343335f365f
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    AnimatedTexture: !<own> 1399c5f0-6783-47f3-95f9-d15255d0613c
+  DependentFiles:
+    - LPD-290_UI_Audio_Search_sequence_v01.png
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/fa5b3e12-5604-b0b0-8c73-5b56f81b0f94>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ce30d74d-2553-4839-82a2-6d823f6c6d17
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ce30d74d-2553-4839-82a2-6d823f6c6d17
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 5a1a2cc2-e4ae-40cf-a47d-bda18ef42e41
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

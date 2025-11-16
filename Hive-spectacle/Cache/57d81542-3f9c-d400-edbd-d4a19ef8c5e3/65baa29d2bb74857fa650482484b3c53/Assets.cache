@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4668c232-c75e-44e1-98ea-56bd53a70583: 57d81542-3f9c-d400-edbd-d4a19ef8c5e3/65baa29d2bb74857fa650482484b3c53/Data/Magic Dew Specular.png
+  Assets:
+    - !<FileTexture/4668c232-c75e-44e1-98ea-56bd53a70583>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 256
+  SourceHash: 65baa29d2bb74857fa650482484b3c53
+  FileHash: 846ff3772288e14e1f3578226b827c1d
+  NativePackageItems:
+    []

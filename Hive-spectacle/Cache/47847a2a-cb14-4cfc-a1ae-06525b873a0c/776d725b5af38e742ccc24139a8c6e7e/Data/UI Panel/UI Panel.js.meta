@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/c979d4d5-68eb-4930-ba83-72ba07716e7b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 15bbdf97-40f9-4197-a448-c40643796e63
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 15bbdf97-40f9-4197-a448-c40643796e63
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5e2054a2-fdff-4742-9a42-3f976439d75a
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/c89edd28-7655-4144-90c2-7366065d180e> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5e2054a2-fdff-4742-9a42-3f976439d75a>
+  SvgIcon: "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"3\" y=\"6\" width=\"26\" height=\"20\" rx=\"6\" stroke=\"#D0DAE6\" stroke-width=\"2\"/>\n<circle cx=\"23\" cy=\"12\" r=\"3\" stroke=\"#D0DAE6\" stroke-width=\"2\"/>\n</svg>\n"
+  Description: "\nUI Panel Widget is used as a container for other UI Widgets such as UIButton, UI Toggle and UI Color Picker. It allows to modify their interactivity all together \nApi : \n\n// Manually enable interactable\n// script.enableInteractable()\n//\n// Manually disable interactable\n// script.disableInteractable()\n//\n// True if interactable\n// script.isInteractable()\n//\n// Add callback function to event\n// script.onEnableInteractable.add(callback)\n// script.onDisableInteractable.add(callback)\n//\n// Remove callback function from event\n// script.onEnableInteractable.remove(callback)\n// script.onDisableInteractable.remove(callback)\n//\n// Enable touch events\n// script.enableTouchEvents()\n//\n// Disable touch events\n// script.disableTouchEvents()"
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0005eade-b487-8ea3-0000-0000000ecf7c
+  ExportUid: 93e9e8d2-44d7-4a27-b4ab-c3f30ac53e6e
+  ScriptInputsHidden:
+    disableTouchEventsInput: false
+    editAdvancedOptions: false
+    interactable: false
+    panelMaterial: true
+    printDebugStatements: false
+    printWarningStatements: false
+    renderOrderOverride: false
+  ScriptTypesHidden: {}
+  DefaultScriptInputs:
+    - interactable: true
+      renderOrderOverride: 0
+      editAdvancedOptions: false
+      printDebugStatements: false
+      printWarningStatements: false
+      disableTouchEventsInput: false
+      panelMaterial: !<reference.Material> 75a9d2d9-39e8-423f-ab5e-f4cdf05d88c4
+  ScriptTypes:
+    - {}

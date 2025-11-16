@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5c5159c9-153f-4894-98d3-17121f2a4c76: e4bceddb-7569-7094-59fb-a8c7025231a2/3d50d8c9da8cc8d8768763f39db84ada/Data/RightHandMeshPin.mesh
+  Assets:
+    - !<FileMesh/5c5159c9-153f-4894-98d3-17121f2a4c76>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3818
+        Vertices: 2436
+        Blendshapes:
+          []
+        Joints: 41
+        AabbSize: {x: 21.936005, y: 8.986022, z: 14.084343}
+  SourceHash: 3d50d8c9da8cc8d8768763f39db84ada
+  FileHash: 763aee9f7912d589552517e8d51a98cc
+  NativePackageItems:
+    []

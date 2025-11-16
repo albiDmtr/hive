@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/39c13b7f-5748-eefb-a358-554bedc79458>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e2c6d3bf-de42-4ee4-8ccb-72de25971424
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e2c6d3bf-de42-4ee4-8ccb-72de25971424
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 4bzUXhpCKQkRBPvWXBYlTA
+  AssetDataMap:
+    ObjectPrefab: !<own> a47479a3-dcb2-4bdc-9621-36bb2b5bea53
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/00730e14-0745-4a64-4497-75aac5c0980b>
+  PrefabRemaps:
+    []
+  Name: Unit_Sphere__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 13909abe-a5ca-423c-6354-72e0164da488
+- !<RenderMeshVisual/13909abe-a5ca-423c-6354-72e0164da488>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ac9dd3b-07a0-4db5-8106-3d12ae0970db
+  Mesh: !<reference> e32833c6-3e5f-47ce-97e1-f8b21582d41d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    GlobalIllumination:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ObjectPrefabAssetData/a47479a3-dcb2-4bdc-9621-36bb2b5bea53>
+  Prototype: !<ObjectOwner/ecc487d3-e293-4bee-933f-ffdaeaa33fcf>
+    PackagePath: ""
+    objects:
+      - !<own> 00730e14-0745-4a64-4497-75aac5c0980b

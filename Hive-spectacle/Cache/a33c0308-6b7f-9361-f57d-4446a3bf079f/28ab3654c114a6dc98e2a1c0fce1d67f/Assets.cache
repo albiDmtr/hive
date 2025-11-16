@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c33cdb86-7f01-4049-9ca6-cde0bcbd5fbd: a33c0308-6b7f-9361-f57d-4446a3bf079f/28ab3654c114a6dc98e2a1c0fce1d67f/Data/SIKLogo.png
+  Assets:
+    - !<FileTexture/c33cdb86-7f01-4049-9ca6-cde0bcbd5fbd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 28ab3654c114a6dc98e2a1c0fce1d67f
+  FileHash: b2cba017d1b16da62956394780aea722
+  NativePackageItems:
+    []

@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/1f01a9cc-c7ea-4d95-bd53-72288e483fe6>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Trail Spiral Trail Spiral Template allows you to create an animated trail that moves in a spiral around an object. You can customize various parameters such as length, brightness, speed etc. Please read the README script inside the asset first. Click here to learn more about Material Editor
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 75756ab6-b976-4a5e-81e0-4c63cd89adc1
+  ComponentUid: f1a253f9-49f0-4324-bcfb-a8062f671f8c
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 330
+  clientVersion: 13.6000004

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ee0b0b36-b422-464d-a37a-414e90b9ccd9: f8b21f51-7a52-542a-a0b3-dd15f542b1b0/74f12ed68e99fdf755e39679c2df0d2c/Data/GPUParticlesTrailsMesh.mesh
+  Assets:
+    - !<FileMesh/ee0b0b36-b422-464d-a37a-414e90b9ccd9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 200
+        Vertices: 204
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 1.000000, z: 0.000000}
+  SourceHash: 74f12ed68e99fdf755e39679c2df0d2c
+  FileHash: b824b36b641f90b57615dfe5709312e4
+  NativePackageItems:
+    []

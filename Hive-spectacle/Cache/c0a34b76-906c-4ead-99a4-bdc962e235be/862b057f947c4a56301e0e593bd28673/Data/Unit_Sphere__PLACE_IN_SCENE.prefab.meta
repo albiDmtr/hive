@@ -1,0 +1,82 @@
+- !<AssetImportMetadata/472e0509-bbf4-4373-a6fa-93b2dbb0f8cd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e2c6d3bf-de42-4ee4-8ccb-72de25971424
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e2c6d3bf-de42-4ee4-8ccb-72de25971424
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> a47479a3-dcb2-4bdc-9621-36bb2b5bea53
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/58e01014-0e68-4a0d-ad5c-cbee18ec695a>
+  PrefabRemaps:
+    []
+  Name: Unit_Sphere__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6b29b430-6bd7-4bea-8f7a-3086c44c2ff6
+- !<RenderMeshVisual/6b29b430-6bd7-4bea-8f7a-3086c44c2ff6>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4ac9dd3b-07a0-4db5-8106-3d12ae0970db
+  Mesh: !<reference> e32833c6-3e5f-47ce-97e1-f8b21582d41d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    GlobalIllumination:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ObjectPrefabAssetData/a47479a3-dcb2-4bdc-9621-36bb2b5bea53>
+  SourceRemaps:
+    - 00730e14-0745-4a64-bb68-8a553a3f67f4: 58e01014-0e68-4a0d-ad5c-cbee18ec695a
+    - 13909abe-a5ca-423c-9cab-8d1fe9b25b77: 6b29b430-6bd7-4bea-8f7a-3086c44c2ff6
+    - e2c6d3bf-de42-4ee4-8ccb-72de25971424: db2090a8-c5f5-4baf-bff8-2be4b68857d8
+  SourceState: !<own> db2090a8-c5f5-4baf-bff8-2be4b68857d8
+- !<ObjectPrefab/db2090a8-c5f5-4baf-bff8-2be4b68857d8>
+  PackagePath: ""
+  objects:
+    - !<own> 58e01014-0e68-4a0d-ad5c-cbee18ec695a
+  LazyLoading: false
+  RetainAssets: true

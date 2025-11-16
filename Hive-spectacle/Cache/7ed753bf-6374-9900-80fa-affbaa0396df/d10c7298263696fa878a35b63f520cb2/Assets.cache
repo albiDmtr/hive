@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3a99a1b6-0158-49d9-bac5-bcbffd169c07: 7ed753bf-6374-9900-80fa-affbaa0396df/d10c7298263696fa878a35b63f520cb2/Data/Magic Dew Diffuse.png
+  Assets:
+    - !<FileTexture/3a99a1b6-0158-49d9-bac5-bcbffd169c07>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 256
+  SourceHash: d10c7298263696fa878a35b63f520cb2
+  FileHash: 52e8d443fb4971a0972e800100d757ca
+  NativePackageItems:
+    []

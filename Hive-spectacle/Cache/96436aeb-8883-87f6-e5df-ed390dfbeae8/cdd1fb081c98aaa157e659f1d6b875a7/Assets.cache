@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    95ab26ee-5b67-4750-904a-6340277785d9: 96436aeb-8883-87f6-e5df-ed390dfbeae8/cdd1fb081c98aaa157e659f1d6b875a7/Data/Icosphere.mesh
+  Assets:
+    - !<FileMesh/95ab26ee-5b67-4750-904a-6340277785d9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 80
+        Vertices: 240
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 190.211563, y: 200.000000, z: 199.999985}
+  SourceHash: cdd1fb081c98aaa157e659f1d6b875a7
+  FileHash: 4d830ef168a283a7f213ea8b33c6aa14
+  NativePackageItems:
+    []

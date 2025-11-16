@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/49c8cc05-e14a-4765-9aec-a94b151a8757>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 1
+    build: 25102815
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Unit Sphere Mesh The Unit Sphere is 1 cm in diameter. You can apply real-world measurements to this object's scale and get an accurate visual representation. • Origin is in center of object • Dimensions are 1cm diameter • UV Sphere
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: c8f27b67-71ba-40e6-ac46-1d470d9312cf
+  ComponentUid: 39a27a82-bef8-4107-b1b0-d912a9abcf20
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  PackagePolicy: CanBeUnpackedTransparent
+  coreVersion: 330
+  clientVersion: 13.6000004

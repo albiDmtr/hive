@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3c94048a-dd5e-4ccb-ab92-cc28d64f7187: 8f3e6b47-d3bc-cecd-c131-270e11ffb84a/9fbd8b9fd4640218e66c6a0e5c1bb835/Data/ArrowDown.png
+  Assets:
+    - !<FileTexture/3c94048a-dd5e-4ccb-ab92-cc28d64f7187>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 64
+  SourceHash: 9fbd8b9fd4640218e66c6a0e5c1bb835
+  FileHash: 9e6b3c918c3740e53260c1b9235fd43b
+  NativePackageItems:
+    []
